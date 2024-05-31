@@ -1,7 +1,7 @@
 interface ContainerProps {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
 export function Container({ children }: ContainerProps) {
-  return <div className="max-w-[1024px] w-full mx-auto">{children}</div>
+  return <div className="max-w-[1280px] w-full mx-auto">{children}</div>;
 }
